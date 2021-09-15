@@ -34,6 +34,14 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 
+$myroutes = [];
+$myroutes ['about'] = 'Home::about';
+$myroutes ['contact'] = 'Home::contact';
+
+$myroutes ['/eBooks'] = 'EBooks::index';
+
+$myroutes ['/services/services'] = 'Services::Services';
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
