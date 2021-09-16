@@ -192,5 +192,6 @@
                 </div>
         </div>
     </div>
+</div>
     <!--Home-content-end--> 
     <?= $this->endSection(); ?>
