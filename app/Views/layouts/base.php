@@ -105,14 +105,11 @@
                             <a class="nav-link" href="<?= base_url(); ?>/">CA MCQs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url(); ?>/">Other Languages</a>
+                            <a class="nav-link" href="<?= base_url(); ?>/">Kannada</a>
                         </li>
 
                     </ul>
-                    <form class="search d-flex">
-                        <input class="form-control  ms-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn search-btn" type="submit">Search</button>
-                    </form>
+                    
                 </div>
             </div>
         </nav>
@@ -140,29 +137,22 @@
                                 <li><a href="<?= base_url(); ?>">Home</a></li>
                                 <li><a href="<?= base_url(); ?>/about">About</a></li>
                                 <li><a href="<?= base_url(); ?>/contact">Contact</a></li>
-                                <li><a href="<?= base_url(); ?>/blogs">Blogs</a></li>
-                                <li><a href="<?= base_url(); ?>/downloads">Downloads</a></li>
+                                <li><a href="<?= base_url(); ?>/prelims">Prelims</a></li>
+                                <li><a href="<?= base_url(); ?>/mains">Mains</a></li>
+                                <li><a href="<?= base_url(); ?>/interview">Interview</a></li>
+                                <li><a href="<?= base_url(); ?>/prelims-mcqs">Prelims MCQs</a></li>
+                                <li><a href="<?= base_url(); ?>/mains-questions">Mains Questions</a></li>
                                 <li><a href="<?= base_url(); ?>/ebooks">eBooks</a></li>
-                                <li><a href="<?= base_url(); ?>/onlinecourses">Online Courses</a></li>
+                                <li><a href="<?= base_url(); ?>/downloads">Downloads</a></li>
+                                <li><a href="<?= base_url(); ?>/curent-affairs">Current Affairss</a></li>
+                                <li><a href="<?= base_url(); ?>/ca-mcqs">CA MCQs</a></li>
                                 <li><a href="<?= base_url(); ?>/socialmedia">Social Media</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-6">
                         <h2 class="pt-2 pt-2">Online Courses</h2>
-                        <ul>
-                            <li><a href="<?= base_url(); ?>/"></a>Spelling And BasicEnglish Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>English Grammar Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Spoken English Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Translation Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Cursive Handwriting Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Objective English Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Jobs Skills Training Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Essay Writing Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Build Your Vocabulary Course</li>
-                            <li><a href="<?= base_url(); ?>/"></a>Precis Writing Course</li>
-
-                        </ul>
+                        
                     </div>
                     <div class="col-md-3">
                         <h2 class="pt-2 pb-2 text-center text-md-start">Social Media</h2>
