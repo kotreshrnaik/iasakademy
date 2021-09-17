@@ -141,16 +141,7 @@ $cream-color: rgb(236, 247, 95);
     }
 
 }
-#welcome {
-    h2 {
-        color: $primary-color;
 
-    }
-    p {
-        color: $black-color;
-    }
-    @include book-reading-icon($primary-color, $primary-color, $white-color);
-}
 #common-header {
     background-color: $secondary-color;
     a {
@@ -176,18 +167,44 @@ $cream-color: rgb(236, 247, 95);
         color:$primary-color;
      }
 }
-
+#welcome {
+    .welcome {
+        @include book-reading-icon($primary-color, $primary-color, $white-color);
+    }
+}
 #home-content {
     .left-column {
         background-color:$tertiary-color;
     }
     
     h2 {
-        color: $secondary-color;
+        color: $tertiary-color;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     p {
         color: $primary-color;
+        font-weight:600;
     }
+    
+    .right-column-1, .right-column-2  {
+        h2 {
+           color:$tertiary-color;
+           padding-top: 10px;
+           padding-bottom: 10px;
+        }
+        
+        @include book-reading-icon($primary-color, $primary-color, $white-color);  
+        
+    }
+    // .right-column-2 {
+    //     h2 {
+    //         color:$tertiary-color;
+    //      }
+         
+    //      @include book-reading-icon($primary-color, $primary-color, $white-color);
+    // }
+
     a {
         text-decoration: none;
         color: $white-color;
@@ -259,6 +276,7 @@ $cream-color: rgb(236, 247, 95);
     }
 
     .side-line {
+        
         position: relative;
         &::before {
             position: absolute;
@@ -278,7 +296,37 @@ $cream-color: rgb(236, 247, 95);
             padding: 4px 15px;
             background-color: rgb(163, 18, 151);
             font-size: 20px;
+            
         }
     }
     
 }
+
+#accordionExample1, #accordionExample2, #accordionExample3, #accordionExample4, #accordionExample5, #accordionExample6, #accordionExample7, #accordionExample8, #accordionExample9, #accordionExample10, #accordionExample11, #accordionExample12 {
+    .accordion-button {
+        text-decoration: none;
+        background-color: #003153;
+        font-size: 22px;
+        color: #ffffff;
+        margin-bottom: 3px;
+        margin-top: 3px;
+
+        &::after {
+            font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0dd";
+            background-image: none;
+            font-size:30px;
+        }
+        .collapsed::after {
+            background-color: $white-color;
+            background-image: none;
+        }
+    }
+    // css syntaxt
+    //.accordion-button:not(.collapsed)::after {
+    //     background-color: $white-color;
+    // }
+    // .accordion-button::after {
+    //     background-color: $white-color;
+    // }
+}
+

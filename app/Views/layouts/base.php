@@ -1,18 +1,18 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href ="<?= base_url(); ?>/public/assets/scss/style.css">
-    <title>Welcome to IAS Akademy</title>
-  </head>
-  <body>
-    <!-- top-header start -->
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href ="<?= base_url(); ?>/public/assets/scss/style.css">
+        <title>Welcome to IAS Akademy</title>
+    </head>
+    <body>
+        <!-- top-header start -->
         <div id="top-header">
             <div class="container">
                 <div class="row ">
@@ -35,20 +35,34 @@
                                 <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
 
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/youtube-channel">Youtube</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/facebookpage">Facebook Page</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/instagram">Instagram</a></li>
-                                    
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/socialmedia/spotify">Spotify</a></li>
-                                    
+
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-download"></i>
                                     Downloads
                                 </a>
-                                
+                                <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/">NCERT Books</a></li>
+
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/">NIOS Study Material</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/">IGNOU Study Material</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/">Yojana & Kurukshetra</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/">Previous Year Papers</a></li>
+
+                                </ul>
+
                             </li>
                         </ul>
                     </div>
@@ -62,7 +76,7 @@
                             </li>
                         </ul>
                     </div>
-                    
+
 
                 </div>
             </div>
@@ -79,13 +93,13 @@
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="<?= base_url();?>">Home</a>
+                            <a class="nav-link active" aria-current="page" href="<?= base_url(); ?>">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url();?>/prelims">Prelims</a>
+                            <a class="nav-link" href="<?= base_url(); ?>/prelims">Prelims</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url();?>/mains">Mains</a>
+                            <a class="nav-link" href="<?= base_url(); ?>/mains">Mains</a>
                         </li>
 
                         <li class="nav-item">
@@ -94,7 +108,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url(); ?>/">Current Affairs</a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url(); ?>/">Prelims MCQs</a>
                         </li>
@@ -109,13 +123,13 @@
                         </li>
 
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>
 
         <!-- navbar ends  -->
-        
+
         <?= $this->renderSection("content"); ?>
 
         <!--Footer starts -->
@@ -152,7 +166,7 @@
                     </div>
                     <div class="col-md-3 col-6">
                         <h2 class="pt-2 pt-2">Online Courses</h2>
-                        
+
                     </div>
                     <div class="col-md-3">
                         <h2 class="pt-2 pb-2 text-center text-md-start">Social Media</h2>
@@ -170,18 +184,32 @@
             </div>
         </footer>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/61446248d326717cb681f409/1ffphvra7';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
+        <!--End of Tawk.to Script-->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="<?= base_url(); ?>/public/assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="<?= base_url(); ?>/public/assets/js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        -->
+    </body>
 </html>
