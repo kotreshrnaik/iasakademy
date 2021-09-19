@@ -64,6 +64,55 @@
                                 </ul>
 
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-brain"></i>
+                                    Mindmaps
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/mindmaps/">NCERT Books</a></li>
+
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/mindmaps/">NIOS Study Material</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/mindmaps/">IGNOU Study Material</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/mindmaps/">Yojana & Kurukshetra</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/mindmaps/">Previous Year Papers</a></li>
+
+                                </ul>
+
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-atlas"></i>
+                                    Test Series
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">NCERT Subjectwise</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">NCERT Classwise</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">Prelims-General Studies</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">Prelims-CSAT</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">Prelims-Current Affairs</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">Mains-Essays</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">Mains-GS-I,II,III & IV</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">Mains-Optional Subjects</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">Mains-Cumpulosory English</a></li>
+
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/testseries/">Mains-Cumpulosory-Indian Lauaguages</a></li>
+
+                                </ul>
+
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-3 align-self-center">
@@ -95,29 +144,145 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="<?= base_url(); ?>">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url(); ?>/prelims">Prelims</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Current Affairs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA Economy</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA Environment</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA International</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA Policy</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA Polity</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA Science & Technology</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA Security</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA Social</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/currentaffairs/">CA Miscellaneous</a></li>
+
+                            </ul>
+
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url(); ?>/mains">Mains</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                CA MCQs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs Economy</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs Environment</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs International</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs Policy</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs Polity</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs Science & Technology</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs Security</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs Social</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/ca-mcqs/">CA MCQs Miscellaneous</a>
+
+                                </li>
+
+                            </ul>
+
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url(); ?>/interview">Interview</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Prelims
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/prelims/">Prelims-Paper-1: Genral Studies</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/prelims/">Prelims-Paper-2: CSAT</a></li>
+
+                            </ul>
+
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url(); ?>/">Current Affairs</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Prelims MCQs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/prelims-mcqs/">Prelims MCQs-Paper-1: Genral Studies</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/prelims-mcqs/">Prelims MCQs-Paper-2: CSAT</a></li>
+
+                            </ul>
+
                         </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url(); ?>/">Prelims MCQs</a>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Mains
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-1: Essay</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-2: GS-I</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-3: GS-II</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-4: GS-III</a></li>
+                                
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-5: GS-IV</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-6 & 7: Optional Subjects</a></li>
+                                
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-8: Compulsory English</a></li>
+                                
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-9: Compulsory Indian Languages</a></li>
+
+                            </ul>
+
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Mains Q&As
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-1: Essay</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-2: GS-I</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-3: GS-II</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-4: GS-III</a></li>
+                                
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-5: GS-IV</a></li>
+
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-6 & 7: Optional Subjects</a></li>
+                                
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-8: Compulsory English</a></li>
+                                
+                                <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-9: Compulsory Indian Languages</a></li>
+
+                            </ul>
+
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url(); ?>/">Mains Questions</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url(); ?>/">CA MCQs</a>
+                            <a class="nav-link" href="<?= base_url(); ?>/">Interview</a>
                         </li>
+                        
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url(); ?>/">Kannada</a>
                         </li>
@@ -186,15 +351,15 @@
 
         <!--Start of Tawk.to Script-->
         <script type="text/javascript">
-        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-        (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/61446248d326717cb681f409/1ffphvra7';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-        })();
+            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/61446248d326717cb681f409/1ffphvra7';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
         </script>
         <!--End of Tawk.to Script-->
 
