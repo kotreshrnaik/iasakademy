@@ -13,6 +13,31 @@ use CodeIgniter\Controller;
  *
  * @author Admin
  */
-class Downloads extends \CodeIgniter\Controller{
-    //put your code here
+class Downloads extends Controller{
+    public function index()
+    {
+        return view('/downloads/downloads_view');
+    }
+    public function UPSCSyllabus()
+    {
+        return view('downloads/upscsyllabus_view');
+    }
+    public function NCERTBooks()
+    {
+        return view('downloads/ncertbooks_view');
+    }
+    public function NIOSStudyMaterial()
+    {
+        return view('downloads/niosstudymaterial_view');
+    }
+    public function YojanaAndKurukshetra()
+    {
+        return view('downloads/yojanaandkurukshetra_view');
+    }
+    public function PreviousYearPapers()
+    {
+        return view('downloads/previousyearpapers_view');
+    }
+    
+    
 }

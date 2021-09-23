@@ -50,6 +50,8 @@
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="social-media-dropdown">
 
+                                    <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/">UPSC Syllabus</a></li>
+
                                     <li><a class="dropdown-item" href="<?= base_url(); ?>/downloads/">NCERT Books</a></li>
 
 

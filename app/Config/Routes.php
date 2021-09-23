@@ -38,9 +38,21 @@ $myroutes = [];
 $myroutes ['about'] = 'Home::about';
 $myroutes ['contact'] = 'Home::contact';
 
-$myroutes ['/eBooks'] = 'EBooks::index';
+$myroutes ['/socialmedia'] = 'Socialmedia::index';
+$myroutes ['/socialmedia/youtube-channel'] = 'Socialmedia::Youtube';
+$myroutes ['/socialmedia/facebook-page'] = 'Socialmedia::FacebookPage';
+$myroutes ['/socialmedia/instagram'] = 'Socialmedia::Instagram';
+$myroutes ['/socialmedia/spotify'] = 'Socialmedia::Spotify';
 
-$myroutes ['/services/services'] = 'Services::Services';
+$myroutes ['/downloads'] = 'Downloads::index';
+$myroutes ['/downloads/english-grammar'] = 'Downloads::EnglishGrammar';
+$myroutes ['/downloads/spoken-english'] = 'Downloads::SpokenEnglish';
+$myroutes ['/downloads/parts-of-speech'] = 'Downloads::PartsOfSpeech';
+$myroutes ['/downloads/vocabulary'] = 'Downloads::Vocabulary';
+$myroutes ['/downloads/translation'] = 'Downloads::Translation';
+$myroutes ['/downloads/objective-english'] = 'Downloads::ObjectiveEnglish';
+$myroutes ['/downloads/interview'] = 'Downloads::InterviewQandA';
+$myroutes ['/downloads/essays'] = 'Downloads::Essays';
 
 /*
  * --------------------------------------------------------------------
