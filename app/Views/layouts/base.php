@@ -21,7 +21,7 @@
                             <a href="mailto:iasakademy@gmail.com"><i class="fas fa-envelope-open-text"></i> iasakademy@gmail.com</a>
                         </div>
                     </div>
-                    <div class="col-md-3 align-self-center">
+                    <div class="col-md-2 align-self-center">
                         <div class="text-center text-md-start p-1">
                             <a href="tel:09731564894"><i class="fas fa-phone-volume"></i> +91 97315 64894</a>
                         </div>
@@ -89,7 +89,7 @@
                             
                         </ul>
                     </div>
-                    <div class="col-md-3 align-self-center">
+                    <div class="col-md-4 align-self-center">
                         <ul class="d-flex list-unstyled mb-0 justify-content-center justify-content-md-end">
                         <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="downloads-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-atlas"></i>
