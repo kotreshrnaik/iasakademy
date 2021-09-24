@@ -48,6 +48,22 @@ $cream-color: rgb(236, 247, 95);
         }
     }
 }
+#whats-new{
+    background-color: $primary-color;
+    .btn{
+        @include button-color;
+    }
+    .card-body{
+        background-color: $secondary-color;
+        color: $white-color;
+    }
+    a {
+        text-decoration:none;
+        color:$primary-color;
+        font-size: 14px;
+    }
+
+}
 
 
 #top-header {

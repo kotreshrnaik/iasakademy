@@ -133,6 +133,7 @@
             </div>
         </div>
         <!-- top-header-end -->
+        
         <!-- navbar starts  -->
         <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbar">
             <div class="container">
@@ -244,13 +245,13 @@
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-3: GS-II</a></li>
 
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-4: GS-III</a></li>
-                                
+
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-5: GS-IV</a></li>
 
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-6 & 7: Optional Subjects</a></li>
-                                
+
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-8: Compulsory English</a></li>
-                                
+
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains/">Mains-Paper-9: Compulsory Indian Languages</a></li>
 
                             </ul>
@@ -269,13 +270,13 @@
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-3: GS-II</a></li>
 
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-4: GS-III</a></li>
-                                
+
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-5: GS-IV</a></li>
 
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-6 & 7: Optional Subjects</a></li>
-                                
+
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-8: Compulsory English</a></li>
-                                
+
                                 <li><a class="dropdown-item" href="<?= base_url(); ?>/mains-qas/">Mains Q&As Paper-9: Compulsory Indian Languages</a></li>
 
                             </ul>
@@ -284,7 +285,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url(); ?>/">Interview</a>
                         </li>
-                        
+
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url(); ?>/">Kannada</a>
                         </li>
